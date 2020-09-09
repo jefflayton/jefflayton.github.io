@@ -13,6 +13,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 li {
@@ -36,6 +37,7 @@ li a:hover:not(.active) {
 }
 
 .main {
+    align-content: center;
     margin-top: 30px;
     padding: 16px;
     text-align: center;
