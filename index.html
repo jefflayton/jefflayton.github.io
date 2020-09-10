@@ -8,22 +8,26 @@
 </head>
 
 <body class="homeBody">
-    <!-- Creates a navigation bar using ul and li tags and uses css to customize. -->
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-    </ul>
-    <!-- Creates a div with the class of "main" that centers the objects inside -->
-    <div class="main">
-        <h1 id="welcome">Welcome!</h1>
-		<p>This is my beautiful home</p>
-		<img src="Images/Images/FancyHome.jpg" alt"Very Fancy Home" width="1000px">
-		<p font-size="15px">(This is not actually my home)</p>
-        <!-- Creates an audio controler that automatically starts playing music -->
-        <audio controls volume="0.5" autoplay>
-            <source src="Sound/bensound-thejazzpiano.mp3" type="audio/mp3">
-        </audio>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
+    <div class="wrapper">
+		<!-- Creates a navigation bar using ul and li tags and uses css to customize. -->
+		<div class="navbar">
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+			</ul>
+		</div>
+		<!-- Creates a div with the class of "main" that centers the objects inside -->
+		<div class="main">
+			<h1>Welcome!</h1>
+			<p>This is my beautiful home</p>
+			<img src="Images/Images/FancyHome.jpg" alt"Very Fancy Home" width="1000px">
+			<p font-size="15px">(This is not actually my home)</p>
+			<!-- Creates an audio controler that automatically starts playing music -->
+			<audio controls volume="0.5" autoplay>
+				<source src="Sound/bensound-thejazzpiano.mp3" type="audio/mp3">
+			</audio>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</div>
 </body></html>
