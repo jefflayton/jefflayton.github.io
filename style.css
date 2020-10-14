@@ -65,12 +65,7 @@ h1 {
 .port_text {
 	font-family: "Open Sans";
     	font-size: 25px;
-	display: inline-block;
-	max-width: 80%;
-	height: 1.5em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap; 
+	align: center;
 }
 
 
