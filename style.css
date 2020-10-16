@@ -64,8 +64,10 @@ h1 {
 
 p {
 	font-family: "Open Sans";
-    	font-size: 25px;
+    font-size: 25px;
 	align: center;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 
